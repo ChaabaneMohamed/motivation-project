@@ -1,16 +1,14 @@
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { View, Text } from 'react-native';
+import MyTabs from 'src/components/MyTabs'
 
 const Tab = createNativeStackNavigator();
 
 function App() {
   return (
     <NavigationContainer>
-      <View>
-        <Text>Home</Text>
-      </View>
+      <MyTabs />
     </NavigationContainer>
   );
 }
