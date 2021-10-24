@@ -1,7 +1,7 @@
-import * as React from 'react';
+import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import MyTabs from 'src/components/MyTabs'
+import MyTabs from '../Tabs/MyTabs';
 
 const Tab = createNativeStackNavigator();
 
