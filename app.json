@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "motivation-project",
+    "slug": "motivation-project",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "motivation-project"
+}
